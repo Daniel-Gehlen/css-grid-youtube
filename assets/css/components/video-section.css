@@ -1,0 +1,7 @@
+.video-section {
+    background-color: #eeeeee;
+    width: 82vw; /* Alteração aqui */
+    max-width: 100%;
+    padding: 15px;
+    margin: auto; /* Centraliza a seção na página */
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" href="./assets/img/youtube 1.svg">
+
+        <meta name="description" content="YouTube Layout with CSS Grid Layout and Atomic Design">
+        <title>YouTube - CSS Grid</title>
+    </head>
+
+    <body>
+        <div class="container">
+
+            <header class="header">
+                <img class="menu-icon" src="./assets/img/menu.svg" alt="exibir menu" />
+                <img class="logo" src="./assets/img/youtube 1.svg" alt="youtube logo" />
+                
+                <div class="search">
+                    <input class="search__input" type="search" placeholder="Pesquisar"/>
+                    <button class="search__button">
+                        <img class="search__button__icon" src="./assets/img/search.svg" alt="pesquisar">
+                    </button>
+                </div>
+                
+                <div class="user-info">
+                    <img class="user-info__icon-upload" src="./assets/img/video.svg" alt="upload" />
+                    <img class="user-info__icon-notification" src="./assets/img/bell.svg" alt="notificação" />
+                    <img class="user-info__icon-profile" src="https://avatars.githubusercontent.com/u/142283217?v=4" alt="perfil" />
+                </div>
+            </header>
+
+            <aside class="aside">
+                <section class="section-list">
+                    
+                    <ul class="list">
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/home.svg" alt="início"/>
+                            <span class="list__item__text">Início</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/compass.svg" alt="em alta"/>
+                            <span class="list__item__text">Explorar</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/youtube.svg" alt="inscições"/>
+                            <span class="list__item__text">Inscrições</span>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section class="section-list">                  
+                    <ul class="list">
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/disc.svg" alt="histórico"/>
+                            <span class="list__item__text">YouTube Music</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/thumbs-up.svg" alt="assistir mais tarde"/>
+                            <span class="list__item__text">Vídeos que gostei</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/clock.svg" alt="Vídeos marcados"/>
+                            <span class="list__item__text">Assistir mais tarde</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/download.svg" alt="podcast"/>
+                            <span class="list__item__text">Downloads</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/film.svg" alt="mostrar mais"/>
+                            <span class="list__item__text">Filmes</span>
+                        </li>
+
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/book.svg" alt="podcast"/>
+                            <span class="list__item__text">Aprender</span>
+                        </li>
+                        
+                        <li class="list__item">
+                            <img class="list__item__icon" src="./assets/img/award.svg" alt="mostrar mais"/>
+                            <span class="list__item__text">Esportes</span>
+                        </li>
+                </section>
+            </aside>
+            
+            <main class="main">
+
+               <section class="video-section">
+                   <article class="video-list">
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/image 16.svg" />
+                                <ul class="list">  
+                                    <li class="list__chanel">
+                                        <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                        <h3 class="card__title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                                    </li>
+                                </ul>
+                            <span class="card__views">2,1 mil visualizações</span>
+                            <span class="card__published-date">Transmitido há 2 dias</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/image 17.svg" />
+                                <ul class="list">  
+                                    <li class="list__chanel">
+                                        <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                        <h3 class="card__title">Scrum Talks</h3>
+                                    </li>
+                                </ul>
+                            <span class="card__views">1,6 mil visualizações</span>
+                            <span class="card__published-date">Transmitido há 3 dias</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/image 18.svg" />
+                                <ul class="list">  
+                                    <li class="list__chanel">
+                                        <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                        <h3 class="card__title">Machine Learning Avançado - Fast Track</h3>
+                                    </li>
+                                </ul>
+                            <span class="card__views">1,7 mil visualizações </span>
+                            <span class="card__published-date">Transmitido há 4 dias</span>
+                        </div>
+
+                        <div class="card">
+                            <img class="card__video" src="./assets/img/image 19.svg" />
+                                <ul class="list">  
+                                    <li class="list__chanel">
+                                        <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                        <h3 class="card__title">Global Skills #2 - Project Planning</h3>
+                                    </li>
+                                </ul>
+                            <span class="card__views">2,1 mil visualizações</span>
+                            <span class="card__published-date">Transmitido há 2 dias</span>
+                        </div>
+                   </article>
+                   <article class="video-list">
+                    <div class="card">
+                        <img class="card__video" src="./assets/img/image 20.svg" />
+                            <ul class="list">  
+                                <li class="list__chanel">
+                                    <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                    <h3 class="card__title">Como aprender a programar Python do ZERO</h3>
+                                </li>
+                            </ul>
+                        <span class="card__views">711 visualizações</span>
+                        <span class="card__published-date">Transmitido há 2 dias</span>
+                    </div>
+
+                    <div class="card">
+                        <img class="card__video" src="./assets/img/image 16.svg" />
+                            <ul class="list">  
+                                <li class="list__chanel">
+                                    <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                    <h3 class="card__title">Geração Tech Unimed - BH - Ciência de Dados</h3>
+                                </li>
+                            </ul>
+                        <span class="card__views">2,1 mil visualizações</span>
+                        <span class="card__published-date">Transmitido há 2 dias</span>
+                    </div>
+
+                    <div class="card">
+                        <img class="card__video" src="./assets/img/image 17.svg" />
+                            <ul class="list">  
+                                <li class="list__chanel">
+                                    <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                    <h3 class="card__title">Scrum Talks</h3>
+                                </li>
+                            </ul>
+                        <span class="card__views">1,6 mil visualizações</span>
+                        <span class="card__published-date">Transmitido há 3 dias</span>
+                    </div>
+
+                    <div class="card">
+                        <img class="card__video" src="./assets/img/image 18.svg" />
+                            <ul class="list">  
+                                <li class="list__chanel">
+                                    <img class="chanel-info__icon-profile" src="./assets/img/Channel Avatar.png" alt="chanel" />
+                                    <h3 class="card__title">Machine Learning Avançado - Fast Track</h3>
+                                </li>
+                            </ul>
+                        <span class="card__views">1,7 mil visualizações </span>
+                        <span class="card__published-date">Transmitido há 4 dias</span>
+                    </div>
+               </article>
+               </section>
+            
+            </main>
+        
+        </div>
+    
+    </body>
+
+</html>

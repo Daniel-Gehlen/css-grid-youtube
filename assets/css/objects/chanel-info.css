@@ -1,0 +1,24 @@
+.chanel-info {
+    width: 156px;
+    height: 40px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+}
+
+.chanel-info__icon-profile {
+    border-radius: 50%;
+    margin-right: 5px; /* Adicione uma margem à direita da imagem */
+    margin-left: 0; /* Certifique-se de que não há margem à esquerda da imagem */
+    gap: 10px;
+    height: 32px;
+    margin-right: 20px;
+}
+
+.list__chanel {
+    padding-left: 0 ;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 0; /* Certifique-se de que não há margem à esquerda da imagem */
+}
